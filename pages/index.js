@@ -48,14 +48,14 @@ export default function Home() {
               </li>
               <li>
                 <a
-                  className="bg-gradient-to-r from-cyan-800 text- to-teal-600 text-white px-4 py-2 border-none rounded-md ml-8"
+                  className="bg-gradient-to-r from-cyan-700 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
                   href="https://drive.google.com/file/d/1TlqE1OaMKkiz5OwrHcOGEzjPxmTzfjEN/view?usp=share_link">
-                  Resume
+                  View Resume
                 </a>
               </li>
             </ul>
           </nav>
-          <div className="text-center p-10 py-10">
+          <div className="text-center p-10 py-10 ">
             <h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">
               Ian Marx
             </h2>
@@ -63,8 +63,7 @@ export default function Home() {
               Coder
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-              A software programmer providing services in Programming, Front-end web development, Back-end web development & UI/UX Design content
-              needs. Connect with me & lets get cracking!
+              A software programmer, passionate about coding, problem-solving, and continuously expanding knowledge in the ever-evolving field of software development. Connect with me & lets get cracking!
             </p>
             <br/>
             <a
@@ -81,11 +80,7 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">Services</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              In my journey to becoming a Programmer and a
-              UI/UX Designer, I have successfully built
-              <span className="text-teal-500"> web-applications </span>
-              and <span className="text-teal-500">systems </span>
-              and collaborated with other developers in planning, writing and debugging softwares with complete accuracy.
+              I offer custom software development, full-stack development, API integration, software maintenance, code review, technology consulting, software testing, and project management services. With expertise in diverse<span className="text-teal-500"> programming languages and frameworks</span>, I deliver quality solutions tailored to your needs, ensuring<span className="text-teal-500"> optimal functionality</span>.
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               I offer a wide range of services, including building AIML models.
@@ -143,7 +138,7 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">Portfolio Projects</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              As a software programmer I have developed several <span className="text-teal-500"> softwares</span> & <span className="text-teal-500">UI Designs.</span>
+              As a software programmer I have developed and debugged several <span className="text-teal-500"> Softwares</span> & <span className="text-teal-500">UI Designs.</span>
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               Below are a few examples of my work.
@@ -216,8 +211,9 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">Contact</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-             Get in touch with me by clicking on the links below, for more <span className="text-teal-500"> enquiry.</span>
+             Get in touch with me, by clicking on the links below for more <span className="text-teal-500"> enquiry.</span>
             </p>
+            <br/>
             <div>
       <FacebookShareButton
         url={'https://www.facebook.com/lan.marx.3/'} >
@@ -250,7 +246,9 @@ export default function Home() {
     </div>
     <br/>
     <div>
-      <h1>Footer</h1>
+      <footer>
+       <p style={{color: '#fff', textAlign: 'center'}}> &copy; 2023. All Rights Reserved</p>
+      </footer>
     </div>
           </div>
         </section>
