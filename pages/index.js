@@ -38,7 +38,7 @@ export default function Home() {
       <main className=" bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between dark:text-white">
-            <h1 className="font-burtons text-xl">Developed by imarx</h1>
+            <h1 className="font-burtons text-xl">Portfolio</h1>
             <ul className="flex items-center">
               <li>
                 <BsFillMoonStarsFill
@@ -48,7 +48,7 @@ export default function Home() {
               </li>
               <li>
                 <a
-                  className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
+                  className="bg-gradient-to-r from-cyan-800 text- to-teal-600 text-white px-4 py-2 border-none rounded-md ml-8"
                   href="https://drive.google.com/file/d/1TlqE1OaMKkiz5OwrHcOGEzjPxmTzfjEN/view?usp=share_link">
                   Resume
                 </a>
@@ -60,10 +60,10 @@ export default function Home() {
               Ian Marx
             </h2>
             <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
-              Full-stack Developer & Coder.
+              Coder
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-              Full-stack developer providing services in Programming, Front-end web development, Back-end web development & UI/UX Design content
+              A software programmer providing services in Programming, Front-end web development, Back-end web development & UI/UX Design content
               needs. Connect with me & lets get cracking!
             </p>
             <br/>
@@ -81,26 +81,26 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">Services</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              In my journey to becoming a Full-stack developer and a
-              UI/UX designer, I have successfully built
+              In my journey to becoming a Programmer and a
+              UI/UX Designer, I have successfully built
               <span className="text-teal-500"> web-applications </span>
               and <span className="text-teal-500">systems </span>
               and collaborated with other developers in planning, writing and debugging softwares with complete accuracy.
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I offer a wide range of services, including building Machine Learning models.
+              I offer a wide range of services, including building AIML models.
             </p>
           </div>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
               <Image src={design} width={100} height={100} alt=""/>
               <h3 className="text-lg font-medium pt-8 pb-2 text-blue-600 ">
-                UI/UX Designs
+                UI/UX Design
               </h3>
               <p className="py-2">
                 Creating elegant designs suited for your needs.
               </p>
-              <h4 className="py-4 text-teal-500">Design Tools;</h4>
+              <h4 className="py-4 text-teal-500">Design Tools:-</h4>
               <p className="text-gray-800 py-1">Illustrator</p>
               <p className="text-gray-800 py-1">Figma</p>
               <p className="text-gray-800 py-1">Adobe XD</p>
@@ -108,19 +108,21 @@ export default function Home() {
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image src={code} width={100} height={100} alt="" />
               <h3 className="text-lg font-medium pt-8 pb-2 text-blue-600 ">
-                Coding Dream Projects
+                Coding
               </h3>
               <p className="py-2">
                 Do you have an idea of your next Website or Application? Lets make it a
                 reality.
               </p>
-              <h4 className="py-4 text-teal-500">Coding Languages;</h4>
+              <h4 className="py-4 text-teal-500">Coding Languages:-</h4>
               <p className="text-gray-800 py-1">Java / Kotlin</p>
-              <p className="text-gray-800 py-1">Javascript (React,Next)</p>
-              <p className="text-gray-800 py-1">MySQL & MongoDB</p>
+              <p className="text-gray-800 py-1">Javascript & Its Frameworks</p>
+              <p className="text-gray-800 py-1">Flutter</p>
+              <p className="text-gray-800 py-1">SQL & NoSQL</p>
               <p className="text-gray-800 py-1">Python</p>
               <p className="text-gray-800 py-1">Php</p>
-              <p className="text-gray-800 py-1">Html & Css</p>
+              <p className="text-gray-800 py-1">React-Native</p>
+              <p className="text-gray-800 py-1">Html5, Css3 & Sass</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image src={consulting} width={100} height={100} alt="" />
@@ -129,7 +131,7 @@ export default function Home() {
                 Are you interested in my feedback on your current project? I can
                 give you tips and tricks to level it up.
               </p>
-              <h4 className="py-4 text-teal-500">Available On;</h4>
+              <h4 className="py-4 text-teal-500">Available On:-</h4>
               <p className="text-gray-800 py-1">LinkedIn</p>
               <p className="text-gray-800 py-1">Twitter</p>
               <p className="text-gray-800 py-1">Gmail</p>
@@ -141,7 +143,7 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">Portfolio Projects</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              As a Full-stack developer I have developed several <span className="text-teal-500"> software projects </span> & <span className="text-teal-500">UI Designs.</span>
+              As a software programmer I have developed several <span className="text-teal-500"> softwares</span> & <span className="text-teal-500">UI Designs.</span>
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               Below are a few examples of my work.
@@ -212,9 +214,9 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className="text-3xl py-1 dark:text-white ">Contact me</h3>
+            <h3 className="text-3xl py-1 dark:text-white ">Contact</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-             Get in touch with me via the below links, for more <span className="text-teal-500"> enquiry.</span>
+             Get in touch with me by clicking on the links below, for more <span className="text-teal-500"> enquiry.</span>
             </p>
             <div>
       <FacebookShareButton
@@ -245,6 +247,10 @@ export default function Home() {
         url={'https://www.linkedin.com/in/ian-marx-761ab61b4/'} >
         <LinkedinIcon size={35} round />
       </LinkedinShareButton>
+    </div>
+    <br/>
+    <div>
+      <h1>Footer</h1>
     </div>
           </div>
         </section>
