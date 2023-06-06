@@ -43,7 +43,7 @@ export default function Home() {
               <li>
                 <BsFillMoonStarsFill
                   onClick={() => setDarkMode(!darkMode)}
-                  className=" cursor-pointer text-2xl"
+                  className="cursor-pointer text-2xl"
                 />
               </li>
               <li>
@@ -110,8 +110,9 @@ export default function Home() {
                 reality.
               </p>
               <h4 className="py-4 text-teal-500">Coding Languages:-</h4>
-              <p className="text-gray-800 py-1">Java / Kotlin</p>
-              <p className="text-gray-800 py-1">Javascript & Its Frameworks</p>
+              <p className="text-gray-800 py-1">Java & Kotlin</p>
+              <p className="text-gray-800 py-1">Javascript</p>
+              <p className="text-gray-800 py-1">Typescript</p>
               <p className="text-gray-800 py-1">Flutter</p>
               <p className="text-gray-800 py-1">SQL & NoSQL</p>
               <p className="text-gray-800 py-1">Python</p>
@@ -130,7 +131,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">LinkedIn</p>
               <p className="text-gray-800 py-1">Twitter</p>
               <p className="text-gray-800 py-1">Gmail</p>
-              <p className="text-gray-800 py-1">Instagram</p>
+              <p className="text-gray-800 py-1">Discord</p>
             </div>
           </div>
         </section>
