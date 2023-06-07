@@ -102,7 +102,7 @@ export default function Home() {
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image src={code} width={100} height={100} alt="" />
-              <h3 className="text-lg font-medium pt-8 pb-2 text-blue-600 ">
+              <h3 className="text-lg font-medium pt-8 pb-2 text-blue-600">
                 Coding
               </h3>
               <p className="py-2">
