@@ -139,7 +139,7 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">Portfolio Projects</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              As a software programmer I have developed and debugged several <span className="text-teal-500"> softwares</span> & <span className="text-teal-500">UI Designs.</span>
+              As a software programmer I have developed and debugged several <span className="text-teal-500"> softwares</span> & <span className="text-teal-500">ui designs.</span>
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               Below are a few examples of my work.
