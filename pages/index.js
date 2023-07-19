@@ -49,7 +49,7 @@ export default function Home() {
               <li>
                 <a
                   className="bg-gradient-to-r from-cyan-700 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
-                  href="https://drive.google.com/file/d/1eigPn6zvpGl8MfQrUplgK4n4dkUt8LO3/view?usp=sharing">
+                  href="https://drive.google.com/file/d/1rbdJ7GK0t9g4CbmdXkYPuLdfvcl8aoNc/view?usp=sharing">
                   View Resume
                 </a>
               </li>
@@ -111,9 +111,8 @@ export default function Home() {
               </p>
               <h4 className="py-4 text-teal-500">Coding Languages:-</h4>
               <p className="text-gray-800 py-1">Java & Kotlin</p>
-              <p className="text-gray-800 py-1">Javascript</p>
+              <p className="text-gray-800 py-1">Javascript (React.js, Next.js, Node.js)</p>
               <p className="text-gray-800 py-1">Typescript</p>
-              <p className="text-gray-800 py-1">Flutter</p>
               <p className="text-gray-800 py-1">SQL & NoSQL</p>
               <p className="text-gray-800 py-1">Python</p>
               <p className="text-gray-800 py-1">Php</p>
@@ -139,7 +138,7 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">Portfolio Projects</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              As a software programmer I have developed and debugged several <span className="text-teal-500"> softwares</span> & <span className="text-teal-500">ui designs.</span>
+              As a software programmer I have developed and debugged several <span className="text-teal-500"> softwares</span> & <span className="text-teal-500">web apps.</span>
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               Below are a few examples of my work.
