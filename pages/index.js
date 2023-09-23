@@ -114,7 +114,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">Javascript (React.js, Next.js, Node.js)</p>
               <p className="text-gray-800 py-1">Typescript</p>
               <p className="text-gray-800 py-1">SQL & NoSQL</p>
-              <p className="text-gray-800 py-1">Python</p>
+              <p className="text-gray-800 py-1">Python (Django, Flask)</p>
               <p className="text-gray-800 py-1">Php</p>
               <p className="text-gray-800 py-1">Dart</p>
               <p className="text-gray-800 py-1">Html5, Css3 & Sass</p>
