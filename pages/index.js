@@ -129,7 +129,7 @@ export default function Home() {
               <h4 className="py-4 text-teal-500">Available On:-</h4>
               <p className="text-gray-800 py-1">LinkedIn</p>
               <p className="text-gray-800 py-1">Twitter</p>
-              <p className="text-gray-800 py-1">Gmail</p>
+              <p className="text-gray-800 py-1">Reddit</p>
               <p className="text-gray-800 py-1">Discord</p>
             </div>
           </div>
