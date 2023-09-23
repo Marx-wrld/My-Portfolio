@@ -116,7 +116,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">SQL & NoSQL</p>
               <p className="text-gray-800 py-1">Python</p>
               <p className="text-gray-800 py-1">Php</p>
-              <p className="text-gray-800 py-1">React-Native</p>
+              <p className="text-gray-800 py-1">Dart</p>
               <p className="text-gray-800 py-1">Html5, Css3 & Sass</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
