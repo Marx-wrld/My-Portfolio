@@ -67,11 +67,11 @@ export default function Home() {
             </p>
             <br/>
             <a
-                  className="bg-gradient-to-r from-cyan-500 text- to-blue-700 text-white px-4 py-2 border-none rounded-md ml-1"
-                  href="https://www.github.com/Marx-wrld">
-                  Github
-                </a>
-            <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
+              className="bg-gradient-to-r from-cyan-500 text- to-blue-700 text-white px-4 py-2 border-none rounded-md ml-1"
+              href="https://www.github.com/Marx-wrld">
+              Github
+            </a>
+            <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-64 h-64 md:w-96 md:h-96 mt-20 relative overflow-hidden">
               <Image src={deved} alt="" layout="fill" objectFit="cover" />
             </div>
           </div>
