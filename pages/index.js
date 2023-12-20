@@ -60,7 +60,7 @@ export default function Home() {
               Ian Marx
             </h2>
             <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
-              Coder
+              Software Engineer | Technical Consultant  
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
               A software programmer passionate about coding, problem solving, and continuously expanding knowledge in the ever evolving field of software engineering. Connect with me & lets get cracking!
