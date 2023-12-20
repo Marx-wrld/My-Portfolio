@@ -110,7 +110,7 @@ export default function Home() {
                 reality.
               </p>
               <h4 className="py-4 text-teal-500">Coding Languages:-</h4>
-              <p className="text-gray-800 py-1">Java|Kotlin (SpringBoot)</p>
+              <p className="text-gray-800 py-1">Kotlin (SpringBoot)</p>
               <p className="text-gray-800 py-1">Javascript (React.js, Next.js, Node.js)</p>
               <p className="text-gray-800 py-1">Typescript</p>
               <p className="text-gray-800 py-1">SQL & NoSQL</p>
