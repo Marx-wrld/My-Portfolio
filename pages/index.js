@@ -28,6 +28,11 @@ import web6 from "../public/web6.png";
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
 
+  useEffect(() => {
+    // Update the current year when the component mounts
+    setCurrentYear(new Date().getFullYear());
+  }, []); // Run this effect only once, when the component mounts
+
   return (
     <div className={darkMode ? "" : "dark"}>
       <Head>
@@ -247,8 +252,11 @@ export default function Home() {
     <br/>
     <div>
       <footer>
-       <p style={{color: '#fff', textAlign: 'center'}}> &copy; 2023. All Rights Reserved</p>
-      </footer>
+          {/* Dynamically display the current year */}
+          <p style={{ color: '#fff', textAlign: 'center' }}>
+            &copy; {currentYear}. All Rights Reserved
+          </p>
+        </footer>
     </div>
           </div>
         </section>
