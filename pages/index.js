@@ -1,4 +1,5 @@
 import Head from "next/head";
+import { useEffect } from "react";
 import {
   FacebookShareButton,
   FacebookIcon,
@@ -27,11 +28,27 @@ import web6 from "../public/web6.png";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
+  const [currentYear, setCurrentYear] = useState(new Date().getFullYear());
 
   useEffect(() => {
-    // Update the current year when the component mounts
-    setCurrentYear(new Date().getFullYear());
-  }, []); // Run this effect only once, when the component mounts
+    let intervalId;
+
+    const updateYear = () => {
+      setCurrentYear(new Date().getFullYear());
+    };
+
+    // Check if the component is mounted before setting up the interval
+    if (typeof window !== "undefined") {
+      intervalId = setInterval(updateYear, 60000);
+    }
+
+    return () => {
+      // Clear the interval if it's set
+      if (intervalId) {
+        clearInterval(intervalId);
+      }
+    };
+  }, []);
 
   return (
     <div className={darkMode ? "" : "dark"}>
