@@ -115,7 +115,7 @@ export default function Home() {
                 UI/UX Design
               </h3>
               <p className="py-2">
-                Creating elegant designs suited for your needs.
+                Creating elegant designs suited to your needs.
               </p>
               <h4 className="py-4 text-teal-500">Design Tools:-</h4>
               <p className="text-gray-800 py-1">Illustrator</p>
