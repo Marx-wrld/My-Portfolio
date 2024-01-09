@@ -128,7 +128,7 @@ export default function Home() {
                 Coding
               </h3>
               <p className="py-2">
-                Do you have an idea of your next Website or Application? Lets make it a
+                Do you have an idea of your next Website or Application? Let's make it a
                 reality.
               </p>
               <h4 className="py-4 text-teal-500">Coding Languages:-</h4>
