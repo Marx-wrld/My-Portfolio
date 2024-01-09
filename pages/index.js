@@ -105,7 +105,7 @@ export default function Home() {
               I offer custom software development, full-stack development, API integration, software maintenance, code review, technology consulting, software testing, and project management services. With expertise in diverse<span className="text-teal-500"> programming languages and frameworks</span>, I deliver quality solutions tailored to your needs, ensuring<span className="text-teal-500"> optimal functionality</span>.
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I offer a wide range of services, including building AIML models.
+              I offer a wide range of services, including DevOps and building machine learning models.
             </p>
           </div>
           <div className="lg:flex gap-10">
