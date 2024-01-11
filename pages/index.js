@@ -85,7 +85,7 @@ export default function Home() {
              Software Engineer 
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-              A software programmer passionate about coding, problem solving, and continuously expanding knowledge in the ever evolving field of software engineering. Connect with me & lets get cracking!
+              A software engineer passionate about coding, problem solving, and continuously expanding knowledge in the ever evolving field of software engineering. Connect with me & let's get cracking!
             </p>
             <br/>
             <a
@@ -105,7 +105,7 @@ export default function Home() {
               I offer custom software development, full-stack development, API integration, software maintenance, code review, technology consulting, software testing, and project management services. With expertise in diverse<span className="text-teal-500"> programming languages and frameworks</span>, I deliver quality solutions tailored to your needs, ensuring<span className="text-teal-500"> optimal functionality</span>.
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I offer a wide range of services, including building AIML models.
+              I also offer other services, including DevOps and building machine learning models.
             </p>
           </div>
           <div className="lg:flex gap-10">
@@ -115,7 +115,7 @@ export default function Home() {
                 UI/UX Design
               </h3>
               <p className="py-2">
-                Creating elegant designs suited for your needs.
+                Creating elegant designs suited to your needs.
               </p>
               <h4 className="py-4 text-teal-500">Design Tools:-</h4>
               <p className="text-gray-800 py-1">Illustrator</p>
@@ -128,7 +128,7 @@ export default function Home() {
                 Coding
               </h3>
               <p className="py-2">
-                Do you have an idea of your next Website or Application? Lets make it a
+                Do you have an idea of your next Website or Application? Let's make it a
                 reality.
               </p>
               <h4 className="py-4 text-teal-500">Coding Languages:-</h4>
@@ -160,7 +160,7 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">Portfolio Projects</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              As a software programmer, I have developed and debugged several <span className="text-teal-500"> softwares</span> & <span className="text-teal-500">web apps.</span>
+              As a software engineer, I have developed and debugged several <span className="text-teal-500">software.</span>
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               Below are a few examples of my work.
@@ -168,6 +168,7 @@ export default function Home() {
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1 ">
+            <a href="https://www.figma.com/file/mieqraQE2M2GgDk9BZomv0/Movie-Ticket-Booking-High-Fidelity-Prototype-App?type=design&node-id=0%3A1&mode=design&t=3i0r80gzrV4Te8px-1" target="_blank" rel="noopener noreferrer">
               <Image
                 className="rounded-lg object-cover"
                 alt=""
@@ -176,8 +177,10 @@ export default function Home() {
                 layout="responsive"
                 src={web1}
               />
+            </a>
             </div>
             <div className="basis-1/3 flex-1">
+            <a href="https://www.figma.com/file/Pe0QvYVjQZDfWzwRVAfP71/NFT's-High-Fidelity-Prototype-App?type=design&node-id=60%3A543&mode=design&t=bGoDR2BqsU6S61wW-1" target="_blank" rel="noopener noreferrer">
               <Image
                 className="rounded-lg object-cover"
                 alt=""
@@ -186,8 +189,10 @@ export default function Home() {
                 layout="responsive"
                 src={web2}
               />
+              </a>
             </div>
             <div className="basis-1/3 flex-1">
+            <a href="https://github.com/Marx-wrld" target="_blank" rel="noopener noreferrer">
               <Image
                 className="rounded-lg object-cover"
                 alt=""
@@ -196,8 +201,10 @@ export default function Home() {
                 layout="responsive"
                 src={web3}
               />
+              </a>
             </div>
             <div className="basis-1/3 flex-1">
+            <a href="https://github.com/Marx-wrld" target="_blank" rel="noopener noreferrer">
               <Image
                 className="rounded-lg object-cover"
                 alt=""
@@ -206,8 +213,10 @@ export default function Home() {
                 layout="responsive"
                 src={web4}
               />
+              </a>
             </div>
             <div className="basis-1/3 flex-1">
+            <a href="https://github.com/Marx-wrld/StudyPal" target="_blank" rel="noopener noreferrer">
               <Image
                 className="rounded-lg object-cover"
                 alt=""
@@ -216,8 +225,10 @@ export default function Home() {
                 layout="responsive"
                 src={web5}
               />
+              </a>
             </div>
             <div className="basis-1/3 flex-1">
+            <a href="https://github.com/Marx-wrld/Hotel-booking-site" target="_blank" rel="noopener noreferrer">
               <Image
                 className="rounded-lg object-cover"
                 alt=""
@@ -226,6 +237,7 @@ export default function Home() {
                 layout="responsive"
                 src={web6}
               />
+            </a>
             </div>
           </div>
         </section>
@@ -233,7 +245,7 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">Contact</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-             Get in touch with me, by clicking on the links below for more <span className="text-teal-500"> enquiry.</span>
+             Get in touch with me, via the links below for more <span className="text-teal-500"> inquiry.</span>
             </p>
             <br/>
             <div>
