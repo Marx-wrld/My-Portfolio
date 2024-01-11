@@ -168,6 +168,7 @@ export default function Home() {
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1 ">
+            <a href="https://www.figma.com/file/mieqraQE2M2GgDk9BZomv0/Movie-Ticket-Booking-High-Fidelity-Prototype-App?type=design&node-id=0%3A1&mode=design&t=3i0r80gzrV4Te8px-1" target="_blank" rel="noopener noreferrer">
               <Image
                 className="rounded-lg object-cover"
                 alt=""
@@ -176,8 +177,10 @@ export default function Home() {
                 layout="responsive"
                 src={web1}
               />
+            </a>
             </div>
             <div className="basis-1/3 flex-1">
+            <a href="https://www.figma.com/file/Pe0QvYVjQZDfWzwRVAfP71/NFT's-High-Fidelity-Prototype-App?type=design&node-id=60%3A543&mode=design&t=bGoDR2BqsU6S61wW-1" target="_blank" rel="noopener noreferrer">
               <Image
                 className="rounded-lg object-cover"
                 alt=""
@@ -186,8 +189,10 @@ export default function Home() {
                 layout="responsive"
                 src={web2}
               />
+              </a>
             </div>
             <div className="basis-1/3 flex-1">
+            <a href="https://github.com/Marx-wrld" target="_blank" rel="noopener noreferrer">
               <Image
                 className="rounded-lg object-cover"
                 alt=""
@@ -196,8 +201,10 @@ export default function Home() {
                 layout="responsive"
                 src={web3}
               />
+              </a>
             </div>
             <div className="basis-1/3 flex-1">
+            <a href="https://github.com/Marx-wrld" target="_blank" rel="noopener noreferrer">
               <Image
                 className="rounded-lg object-cover"
                 alt=""
@@ -206,8 +213,10 @@ export default function Home() {
                 layout="responsive"
                 src={web4}
               />
+              </a>
             </div>
             <div className="basis-1/3 flex-1">
+            <a href="https://github.com/Marx-wrld/StudyPal" target="_blank" rel="noopener noreferrer">
               <Image
                 className="rounded-lg object-cover"
                 alt=""
@@ -216,8 +225,10 @@ export default function Home() {
                 layout="responsive"
                 src={web5}
               />
+              </a>
             </div>
             <div className="basis-1/3 flex-1">
+            <a href="https://github.com/Marx-wrld/Hotel-booking-site" target="_blank" rel="noopener noreferrer">
               <Image
                 className="rounded-lg object-cover"
                 alt=""
@@ -226,6 +237,7 @@ export default function Home() {
                 layout="responsive"
                 src={web6}
               />
+            </a>
             </div>
           </div>
         </section>
