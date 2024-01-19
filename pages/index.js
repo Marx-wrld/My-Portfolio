@@ -282,7 +282,7 @@ export default function Home() {
     <div>
       <footer>
           {/* Dynamically display the current year */}
-          <p style={{ color: '#fff', textAlign: 'center' }}>
+          <p className="text-white text-center text-sm sm:text-base" style={{ color: '#fff', textAlign: 'center' }}>
            Copyright &copy; {currentYear} Ian Marx. All Rights Reserved
           </p>
         </footer>
