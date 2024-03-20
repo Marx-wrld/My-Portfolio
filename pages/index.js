@@ -180,7 +180,7 @@ export default function Home() {
             </a>
             </div>
             <div className="basis-1/3 flex-1">
-            <a href="https://www.figma.com/file/Pe0QvYVjQZDfWzwRVAfP71/NFT's-High-Fidelity-Prototype-App?type=design&node-id=60%3A543&mode=design&t=bGoDR2BqsU6S61wW-1" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.figma.com/file/WSNppc3g1uGVyNRr0UloIG/NFT'S-High-Fidelity-Prototype?type=design&node-id=60-545&mode=design&t=5i4sjffpqhOmqXdZ-0" target="_blank" rel="noopener noreferrer">
               <Image
                 className="rounded-lg object-cover"
                 alt=""
