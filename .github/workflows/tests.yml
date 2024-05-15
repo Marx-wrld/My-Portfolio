@@ -19,4 +19,9 @@ jobs:
       - name: npm install
         run: npm ci
       - name: tests
-        run: npm test --passWithNoTests
+        run: npm test
+      - name: Upload test coverage
+        uses: actions/upload-artifact@v2
+        with:
+          name: coverage
+          path: coverage 
