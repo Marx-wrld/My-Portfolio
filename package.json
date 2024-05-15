@@ -12,7 +12,6 @@
     "test": "jest"
   },
   "dependencies": {
-    "jest-worker": "^24.9.0",
     "firebase": "^9.10.0",
     "footer": "^1.0.0",
     "header": "^0.1.1",
