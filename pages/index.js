@@ -180,7 +180,7 @@ export default function Home() {
             </a>
             </div>
             <div className="basis-1/3 flex-1">
-            <a href="https://www.figma.com/file/Pe0QvYVjQZDfWzwRVAfP71/NFT's-High-Fidelity-Prototype-App?type=design&node-id=60%3A543&mode=design&t=bGoDR2BqsU6S61wW-1" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.figma.com/file/WSNppc3g1uGVyNRr0UloIG/NFT'S-High-Fidelity-Prototype?type=design&mode=design&t=vDJSwNd8IsVtMQOP-1" target="_blank" rel="noopener noreferrer">
               <Image
                 className="rounded-lg object-cover"
                 alt=""
@@ -245,7 +245,7 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">Contact</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-             Get in touch with me, via the links below for more <span className="text-teal-500"> inquiry.</span>
+             Get in touch with me via the links below, for more <span className="text-teal-500"> inquiry.</span>
             </p>
             <br/>
             <div>
@@ -283,7 +283,7 @@ export default function Home() {
       <footer>
           {/* Dynamically display the current year */}
           <p className="text-white text-center text-sm sm:text-base" style={{ color: '#fff', textAlign: 'center' }}>
-           Copyright &copy; {currentYear} Ian Marx. All Rights Reserved
+           Copyright &copy; {currentYear}. All Rights Reserved
           </p>
         </footer>
     </div>
