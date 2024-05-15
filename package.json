@@ -8,6 +8,9 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "scripts": {
+    "test": "jest"
+  },
   "dependencies": {
     "firebase": "^9.10.0",
     "footer": "^1.0.0",
