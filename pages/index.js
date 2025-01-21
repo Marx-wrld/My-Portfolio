@@ -279,14 +279,14 @@ export default function Home() {
       </LinkedinShareButton>
     </div>
     <br/>
-    <div>
-      <footer>
-          {/* Dynamically display the current year */}
-          <p className="text-white text-center text-sm sm:text-base" style={{ color: '#fff', textAlign: 'center' }}>
-           Copyright &copy; {currentYear}. All Rights Reserved
-          </p>
-        </footer>
-    </div>
+        <div>
+          <footer>
+              {/* Dynamically display the current year */}
+              <p className="text-white text-center text-sm sm:text-base" style={{ color: '#fff', textAlign: 'center' }}>
+               Copyright &copy; {currentYear}. All Rights Reserved
+              </p>
+            </footer>
+        </div>
           </div>
         </section>
       </main>
