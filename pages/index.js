@@ -71,7 +71,7 @@ export default function Home() {
               <li>
                 <a
                   className="bg-gradient-to-r from-cyan-700 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
-                  href="https://drive.google.com/file/d/1cUJ7DhgnUUzh-WoZSoia5LLHDKngvS9x/view?usp=sharing">
+                  href="https://drive.google.com/file/d/1Jbj8G7rxuO_aG32KfFQzMakjq26XGAKg/view?usp=sharing">
                   View Resume
                 </a>
               </li>
